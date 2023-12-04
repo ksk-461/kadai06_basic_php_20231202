@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>post</title>
 </head>
+        <!-- TODO タイトル後で直す -->
 <body>
     post
     <a href="./write.php">write</a>
