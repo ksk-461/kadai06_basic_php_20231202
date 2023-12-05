@@ -11,7 +11,7 @@
         ",time:".$time.
         ",name:".$name.
         ",mail:".$mail.
-    ",}";
+    ",},";
     file_put_contents('data.txt', $data, FILE_APPEND);
 ?>
 
