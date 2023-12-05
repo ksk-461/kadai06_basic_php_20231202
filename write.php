@@ -1,3 +1,20 @@
+<?php
+    $name = $_POST['name'];
+    $mail = $_POST['mail'];
+    $a = $_POST['a'];
+    $b = $_POST['b'];
+    $c = $_POST['c'];
+    // TODO 設問見直し
+    $time = date('Y/m/d H:i:s');
+    $data = "{".
+        "id:".$id.
+        ",time:".$time.
+        ",name:".$name.
+        ",mail:".$mail.
+    ",}";
+    file_put_contents('data.txt', $data, FILE_APPEND);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
