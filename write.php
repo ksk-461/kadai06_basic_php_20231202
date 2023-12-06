@@ -5,16 +5,20 @@
     $b = $_POST['b'];
     $c = $_POST['c'];
     // TODO 設問見直し
-    $date = date('Y/m/d');
+    $date = date('Y-m-d');
     $time = date('H:i:s');
-    $data = "{".
+    $data = json_encode(array(
         // "id:".$id.
-        "date:".$date. //2個目以降にするなら,つける
-        ",time:".$time.
-        ",name:".$name.
-        ",mail:".$mail.
-    ",},"."\n";
-    file_put_contents('data.txt', $data, FILE_APPEND);
+        "date"=>$date, //2個目以降にするなら,つける→arrayに変更したから無視
+        "time"=>$time,
+        "name:"=>$name,
+        "mail"=>$mail,
+    )).
+    // echo $data;
+    print_r($data);
+    $current_data = file_get_contents('data.txt');
+    $current_data .= $data . PHP_EOL;
+    file_put_contents('data.txt', $current_data, FILE_APPEND);
 ?>
 
 <!DOCTYPE html>
