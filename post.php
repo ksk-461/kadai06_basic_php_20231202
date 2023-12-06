@@ -17,5 +17,6 @@
         <!-- TODO 設問見直し -->
         <p><input type="submit" value="送信"></p>
     </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 </html>

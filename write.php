@@ -5,13 +5,15 @@
     $b = $_POST['b'];
     $c = $_POST['c'];
     // TODO 設問見直し
-    $time = date('Y/m/d H:i:s');
+    $date = date('Y/m/d');
+    $time = date('H:i:s');
     $data = "{".
-        "id:".$id.
+        // "id:".$id.
+        "date:".$date. //2個目以降にするなら,つける
         ",time:".$time.
         ",name:".$name.
         ",mail:".$mail.
-    ",},";
+    ",},"."\n";
     file_put_contents('data.txt', $data, FILE_APPEND);
 ?>
 
