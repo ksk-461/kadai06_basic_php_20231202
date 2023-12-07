@@ -23,45 +23,45 @@
                 </div>
                 <div class="time">
                     Sun.
-                    <input type="datetime-local" class="form st" name="sun_st" value="2023-12-03 21:00">
+                    <input type="time" class="form st" name="sun_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="sun_ed" value="2023-12-04 09:00">
+                    <input type="time" class="form ed" name="sun_ed" value="07:00">
                 </div>
                 <div class="time">
                     Mon.
-                    <input type="datetime-local" class="form st" name="mon_st" value="2023-12-04 21:00">
+                    <input type="time" class="form st" name="mon_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="mon_ed" value="2023-12-05 09:00">
+                    <input type="time" class="form ed" name="mon_ed" value="07:00">
                 </div>
                 <div class="time">
                     Tue.
-                    <input type="datetime-local" class="form st" name="tue_st" value="2023-12-05 21:00">
+                    <input type="time" class="form st" name="tue_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="tue_ed" value="2023-12-06 09:00">
+                    <input type="time" class="form ed" name="tue_ed" value="07:00">
                 </div>
                 <div class="time">
                     Wed.
-                    <input type="datetime-local" class="form st" name="wed_st" value="2023-12-06 21:00">
+                    <input type="time" class="form st" name="wed_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="wed_ed" value="2023-12-07 09:00">
+                    <input type="time" class="form ed" name="wed_ed" value="07:00">
                 </div>
                 <div class="time">
                     Thu.
-                    <input type="datetime-local" class="form st" name="thu_st" value="2023-12-07 21:00">
+                    <input type="time" class="form st" name="thu_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="thu_ed" value="2023-12-08 09:00">
+                    <input type="time" class="form ed" name="thu_ed" value="07:00">
                 </div>
                 <div class="time">
                     Fri. 
-                    <input type="datetime-local" class="form st" name="fri_st" value="2023-12-08 21:00">
+                    <input type="time" class="form st" name="fri_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="fri_ed" value="2023-12-09 09:00">
+                    <input type="time" class="form ed" name="fri_ed" value="07:00">
                 </div>
                 <div class="time">
                     Sat.
-                    <input type="datetime-local" class="form st" name="sat_st" value="2023-12-09 21:00">
+                    <input type="time" class="form st" name="sat_st" value="22:00">
                     ～
-                    <input type="datetime-local" class="form ed" name="sat_ed" value="2023-12-10 09:00">
+                    <input type="time" class="form ed" name="sat_ed" value="07:00">
                 </div>
                 <input type="submit" class="submit" value="good night">
             </form>
