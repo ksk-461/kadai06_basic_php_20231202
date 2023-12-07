@@ -21,22 +21,13 @@ h1 {
     background-color: #e0e0e0;
 }
 
-.dow{
-    width: 2000px;
-    height: 300px;
-}
-
 .select{
     display: flex;
     justify-content: center;
 }
 
-/* form {
-    text-align: center;
-} */
-
 .form {
-    width: 350px;
+    width: 400px;
     height: 30px;
     border-radius: 10px;
     background: #e0e0e0;
@@ -53,14 +44,14 @@ h1 {
     box-shadow: inset 3px 3px 8px #bebebe, 
                 inset -3px -3px 8px #ffffff;}
 
-.name {
+.name, .mail {
     margin-bottom: 10px;
 }
 
 .time{
     display: flex;
     justify-content: space-around;
-    width: 400px;
+    width: 1000px;
     margin: 20px 0;
     align-items: center;
 }
@@ -68,7 +59,7 @@ h1 {
 /* 時計本体 */
 #clock2 {
     margin: 40px auto;
-    max-width: 200px; /* 幅のレスポンシブ対応 、height 値は JavaScript で決める*/
+    max-width: 150px; /* 幅のレスポンシブ対応 、height 値は JavaScript で決める*/
     position: relative;
     border-radius: 50%;
     background: #e0e0e0;

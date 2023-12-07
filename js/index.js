@@ -16,3 +16,17 @@ document.head.appendChild(animation);
 
 // レスポンシブな正方形を作る
 document.getElementById("clock2").style.height = document.getElementById("clock2").scrollWidth + "px";
+
+// 規定値入れておこうと思ったけど断念
+// function getSunday(){
+//     var today = new Date();
+//     var date_diff = today.getDay();
+//     today.setDate(today.getDate() - date_diff);
+//     var y = today.getFullYear();
+//     var m = ('00' + (today.getMonth()+1)).slice(-2);
+//     var d = ('00' + today.getDate()).slice(-2);
+//     return (y + '-' + m + '-' + d);
+// }
+
+// $('#sunday').val(getSunday());
+// $('.st').val(getSunday()+' 21:00');
