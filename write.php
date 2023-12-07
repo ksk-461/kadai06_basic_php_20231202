@@ -7,18 +7,17 @@
     // TODO 設問見直し
     $date = date('Y-m-d');
     $time = date('H:i:s');
-    $data = json_encode(array(
-        // "id:".$id.
-        "date"=>$date, //2個目以降にするなら,つける→arrayに変更したから無視
-        "time"=>$time,
-        "name:"=>$name,
-        "mail"=>$mail,
-    )).
-    // echo $data;
+
+    $data = new stdClass();
+    $data -> date = $date;
+    $data -> time = $time;
+    $data -> name = $name;
+    $data -> mail = $mail;
+
     print_r($data);
-    $current_data = file_get_contents('data.txt');
-    $current_data .= $data . PHP_EOL;
-    file_put_contents('data.txt', $current_data, FILE_APPEND);
+    echo "<br>"."確認用"."<br>";
+    $json_data = json_encode($data);
+    file_put_contents('data.txt', $json_data . PHP_EOL, FILE_APPEND);
 ?>
 
 <!DOCTYPE html>

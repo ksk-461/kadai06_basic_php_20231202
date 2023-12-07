@@ -1,16 +1,16 @@
 <?php
-    $data = file_get_contents('data.txt');
-    $json_data = json_decode($data); 
-    // echo nl2br($data);
-    print_r($json_data);
-    // $json_array = json_encode($data);
-    // $array = array($data);
-    // echo var_dump($array)."<br>";
-    // echo $array[0]."<br>";
-    // print_r($array)."<br>";
+    $cul = file("data.txt");
+    print_r($cul);
+    echo "<br>";
+    echo "カウント"."<br>";
+    count($cul);
+    echo "以下cul0"."<br>";
+    echo ($cul[0]);
+    echo "<br>";
+    echo $file;
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,4 +26,4 @@
         console.log(data);
     </script>
 </body>
-</html>
+</html> -->
