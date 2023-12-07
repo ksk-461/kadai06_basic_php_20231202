@@ -4,11 +4,24 @@
     $date = $_POST['date'];
     $sun_st = $_POST['sun_st'];
     $sun_ed = $_POST['sun_ed'];
-    echo strtotime($sun_st);
+    echo $sun_st;
     echo "<br>";
-    echo strtotime($sun_ed);
+    echo $sun_ed;
     echo "<br>";
-    echo $sun_st - $sun_ed;
+
+// 時間変換断念
+//     function time_replace($Date){
+//         $Date = str_replace(":", "-", $Date);
+//         $Date = str_replace("T", " ", $Date);
+//         $Date = $Date."-00";
+//         return $Date;
+//     }
+
+//     echo time_replace($sun_ed);
+//     echo "<br>";
+//     echo time_replace($sun_st);
+//     echo "<br>";
+//     echo (time_replace($sun_ed) - time_replace($sun_st));
 ?>
 
 
